@@ -8,7 +8,8 @@ genpw.sh:
 	USAGE: genpw.sh [-i [-f file] | [-a] [-c] [-l length] [-s]] [-f file] service-name]
 
 	Generates a password from a master password and a service name.
-	When a service name is used for the first time, the flags used are saved in a data file (default .$0).
+	When a service name is used with -a, -c, -l or -s, the flags used are saved in a data file.
+	The data file may be specified with -f (default ".genpw_data").
 
 	OPTIONS:
 		-i	Saves the master password hash in the data file. Cannot be used with other options except -f.
