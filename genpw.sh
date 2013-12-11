@@ -8,7 +8,10 @@
 # 	-c	Mixed case. If -c is used, -a becomes redundant. Overwrites any preferences in the data file.
 #	-l	Returns a password of at least a set length. Overwrites any preferences in the data file.
 #	-s	Append special character '*'. Overwrites any preferences in the data file.
-#	-f	Use a specified data file. Default is ".genpw_data".
+#	-f	Use a specified data file. Default is "dir/.genpw_data" where dir is the directory containing genpw.sh.
+
+# move to directory in which script resides
+cd $(dirname $0)
 
 # save name of program
 name=$0
