@@ -18,3 +18,6 @@ genpw.sh:
 		-l	Returns a password of at least a set length. Overwrites any preferences in the data file.
 		-s	Append special character '*'. Overwrites any preferences in the data file.
 		-f	Use a specified data file. Default is "dir/.genpw_data" where dir is the directory containing genpw.sh.
+
+total_echo.sh:
+	Echos the input to stdin, including newlines.
