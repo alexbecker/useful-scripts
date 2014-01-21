@@ -13,9 +13,6 @@
 # move to directory in which script resides
 cd $(dirname $0)
 
-# save name of program
-name=$0
-
 # default values
 initialize=false
 alphabetic=false
